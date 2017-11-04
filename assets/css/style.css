@@ -1,0 +1,15 @@
+body {
+	background: url(../images/Background.jpg);
+}
+
+.jumbotron {
+	background-color: rgb(239, 238, 227);
+}
+
+.panel-body {
+	background-color: rgb(239, 238, 227);
+}
+
+footer {
+	background-color: rgb(239, 238, 227);
+}

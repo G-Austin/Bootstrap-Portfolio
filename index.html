@@ -1,32 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
-
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet" class="font">
-
+  <title>Glo's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
 </head>
 <body>
 
-	<nav class="navbar navbar-default navbar-static-top .navbar-static-top .container ">
-    <div class="container">
-
-      <div class= "name">
-
-        <h1 class= "col-md-8">Glo Austin</h1>
-        <nav class="links">
-        <h4 class= "col-md-1"><a src="index.html"></a>About</h4>
-
-        <h4 class= "col-md-1"><a src="portfolio.html"></a>Portfolio</h4>
-
-        <h4 class= "col-md-1" ><a src="contact.html"></a>Contact</h4>
-        </nav>
-       </div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Glo Austin</a>
     </div>
-  </nav>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+       <!--  <li><a href="index.html">About</a></li> -->
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
 
 <!-- About panel -->
   
@@ -39,17 +60,53 @@
   </div>
 
   <div class="container">
-    <div class="col-md-9">
-      <div class="col-md-6">
-        <img src="images/ProfilePicture.jpeg" class="img-rounded" alt="Profile Picture">
-      </div>
-      <div class="col-md-6">
-        <p>Glo Austin is a front end developer with years of customer service, management, and team building experience. Glo has a solid understanding of JavaScript, HTML, CSS, Python...with examples of what can be built.</p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-4">
+          <img src="assets/images/ProfilePicture.jpg" class="img-rounded" alt="Profile Picture">
+        </div>
+        <div class="col-md-8" class="about">
+          <p>Glo Austin is a front end developer with years of customer service, management, and team building experience. Glo has a solid understanding of JavaScript, HTML, CSS, Python...with examples of what can be built.</p>
 
-        <p> When Glo is not at work, Glo loves to spend time outside with her partner as well as Sid and Pace (paw-chay), the cutest dogs to ever live on this earth.</p>
+          <p> When Glo is not at work, Glo loves to spend time outside with her partner as well as Sid and Pace (paw-chay), the cutest dogs to ever live on this earth.</p>
+        </div>
       </div>
     </div>
   </div>
-	
+<br>
+<!-- Social Media Links-->
+
+<div class="container">
+   <div class="panel panel-default">
+    <div class="panel-body">
+    <div class="text-center">
+      <a href="https://github.com/G-Austin"><img src="assets/images/GitHubLogo.png"></a>
+      <a href="http://www.linkedin.com/in/glo-austin/"><img src="assets/images/LinkedinLogo.png"></a>
+      <a href="http://stackoverflow.com/users/8704578/gaustin"><img src="assets/images/stackoverflow.png"></a>
+    </div>
+    </div>
+ </div>
+
+<br>
+  <!-- footer -->	
+
+  <footer class="container-fluid text-center">
+  <p>© 2017 - Site Built By Glo Austin</p>
+</footer>
+
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous">
+</script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+</script>
+
 </body>
 </html>
