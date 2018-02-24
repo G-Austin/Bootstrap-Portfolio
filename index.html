@@ -4,50 +4,34 @@
   <title>Glo's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
 
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Glo Austin</a>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Glo Austin</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="https://docs.google.com/document/d/1jeYoDyRW3RjrhJEsIDyuGy5p5rAXfk7ud8FgT8nn3-w/edit?usp=sharing">Resume</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-       <!--  <li><a href="index.html">About</a></li> -->
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <!-- <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul> -->
-    </div>
-  </div>
-</nav>
+  </nav>
 
 <!-- About panel -->
 
@@ -60,39 +44,43 @@
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+    <div class="row" class="profile_photo">
+      <div class="col-md-12" >
         <div class="col-md-4">
-          <img src="assets/images/HeadshotProfile.jpeg" class="img-rounded" class="profilePic" alt="Profile Picture">
+          <img src="assets/images/HeadshotProfile.jpeg" class="img-rounded image" alt="Profile Picture">
         </div>
         <div class="col-md-8" class="about">
-          <p>Front-End Developer with a passion for making web applications with seamless user experience.  Possessing a keen eye for details, I’m able to develop creative ways to make systems more efficient. Experience with HTML, CSS, Bootstrap, FlexBox, Javascript, JQuery and excited to work with new and evolving frameworks and technologies. </p>
+          <p>Web developer with a passion for creating web applications with a seamless user experience.
+            Adept at working with diverse teams to get the job done.
+            Always learning and excited to explore new technologies.
+          </p>
 
-          <p> When Glo is not at work, Glo loves to spend time outside with her partner as well as Sid and Pace (paw-chay), the cutest dogs to ever live on this earth.</p>
+          <p>Glo also enjoys spending time outside riding bikes, and adventuring around in the mountains with the cutest dogs on the planet.</p>
         </div>
       </div>
     </div>
   </div>
-<br>
+
 <!-- Social Media Links-->
+  <div class="container">
+     <div class="panel panel-default">
+      <div class="panel-body">
+      <div class="text-center">
+        <a href="https://github.com/G-Austin"><img src="assets/images/GitHubLogo.png"></a>
+        <a href="http://www.linkedin.com/in/glo-austin/"><img src="assets/images/LinkedinLogo.png"></a>
+        <a href="http://stackoverflow.com/users/8704578/gaustin"><img src="assets/images/stackoverflow.png"></a>
+      </div>
 
-<div class="container">
-   <div class="panel panel-default">
-    <div class="panel-body">
-    <div class="text-center">
-      <a href="https://github.com/G-Austin"><img src="assets/images/GitHubLogo.png"></a>
-      <a href="http://www.linkedin.com/in/glo-austin/"><img src="assets/images/LinkedinLogo.png"></a>
-      <a href="http://stackoverflow.com/users/8704578/gaustin"><img src="assets/images/stackoverflow.png"></a>
-    </div>
-    </div>
- </div>
+      <div class="text-center">
+        <p>© 2017 - Site Built By Glo Austin</p>
+      </div>
 
-<br>
+    </div>
+   </div>
   <!-- footer -->
-
-  <footer class="container-fluid text-center">
+  <!-- <footer class="container-fluid text-center">
   <p>© 2017 - Site Built By Glo Austin</p>
-</footer>
+  </footer> -->
 
   <script
   src="https://code.jquery.com/jquery-1.12.4.js"
